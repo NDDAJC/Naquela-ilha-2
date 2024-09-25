@@ -1,0 +1,28 @@
+body{
+    background-color: blanchedalmond;
+    color: black;
+    font-family:  "Slabo 27px", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+button {
+    background-color: cadetblue;
+    color: black;
+    font-family:  "Slabo 27px", serif;
+}
+.passo {
+    display: none;
+}
+.passo.ativo {
+    display: block;
+}
+main {
+    max-width: 90%;
+    text-align: center;
+}
+img {
+    max-width: 90%;
+}
